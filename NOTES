@@ -1,0 +1,230 @@
+Created by Guido van Rossum
+Python Interpretation & Compilation ?
+REPL,  GLOT io -> for online coding in browser
+
+PROGRAM_01:
+print('Andrie Neagoie') # prints to console
+
+PROGRAM_02:
+input('What is your name ?') # captures information (only)
+
+PROGRAM_03:
+name = input('What is your name ?') # Capture the input string and will save in name variable
+print('Hello ' + name) # prints out the name variable value with concatenation
+
+PY2_VS_PY3:
+- Py 3 Came in 2008
+- Major Upgrade, means breaking changes
+- Preferred to use Py 3
+- py3readiness.com
+- Current 356/360
+- Last version 2.7
+- Python - generally means Python 3
+- Tutorial in Python 3.6, Currently 3.10 is Active
+
+Changes from 3.6 to 3.10 ?
+
+
+WHY_SO_MANY_LANGUAGES:
+- python is usually slower than languages like C, C++, Java.
+- Python is although slower, but good at developer productivity
+- All Languages have different strengths and weaknesses
+- There's no ultimate programming language
+- Everything as trade offs, has pro and cons. Experience tells you about what pros and cons of every programming language
+
+
+PYTHON_INTERPRETER:
+- python_code -> INTERPRETER -> byte_code -> CPYTHON_VM -> machine_code
+
+ENGINES:
+- CPython - written in C Language (Official)
+- JPython - written in Java
+- IronPython - written in C# for the Common Language Runtime (CLR/.NET)
+- PyPy - written in Python
+- CLPython - written in Lisp
+- Skybison - written in C++
+
+- Official Language is just a specification
+- It's just a machine built by developers to comply that specification.
+
+How Python works ?
+
+
+PYTHON_BASICS:
+
+yo-terms: statements, instantiation.
+data-types, actions
+
+DATA_TYPES:
+
+Fundamental/Primitive:
+    int - Integer
+    float - Float/Double
+    bool - Boolean
+    str - String
+    list - List/Array
+    tuple - Tuple
+    set - Set
+    dict - Dictionary
+
+Classes -> Custom Types
+Specialized Data Types
+
+NUMBERS:
+
+- Two basic types of numbers Integers & Floats.
+- Can perform all arithmetic ops
+- `type` op tell what type it is. (similar to typeof in JS)
+- print(type(6)) // prints <class 'int'>
+- print(type(0.5)) // prints <class 'float'>
+
+- print(type(0)) // prints <class 'int'>
+- print(type(0.00)) // prints <class 'float'>
+- Floating point number is hard to represent in binary number, therefore more memory is used to store floating number.
+
+- Two Floating points arithmetic op will always result in floating point
+- print(9.9 + 1.1) // will print 11.0
+- print(type(9.9 + 1.1)) // <class 'float'>
+
+ARITHMATIC_OPS:
+
+1. Addition
+   Adds two numbers like
+   2 + 2 = 4.
+
+2. Subtraction
+   Subtracts two numbers like
+   3 - 1 = 2
+
+3. Multiplication
+   Multiply two or more together:
+   2 * 4 = 8
+
+4. Division
+   Divide two numbers like:
+   4 / 2 = 2
+
+5. Modulus
+   Finds the remainder when first operand is divided by the second.
+   4 % 2 = 0 ( 4 / 2 = 2 with no remainders )
+   3 % 2 = 1 ( 3 / 2 = 1.5 with remainder 1 in division)
+   103 % 100 = 3 ( 3 will be in remainder)
+
+6. Exponential
+   Raises the first operand to power of second.
+   2 ** 2 = 4
+   10 ** 2 = 100
+
+7. Floor Division
+   Find the floor of the quotient when first operand is divided by the second. returns integer
+   103 // 100 = 1 ( Division will result in 1.03, and quotient will be 1 )
+   3 // 2 = 1 ( Division will result in 1.5, and quotient will be 1 )
+
+MATH_FUNCS:
+
+1. round()
+2. abs()
+3. https://www.programiz.com/python-programming/modules/math
+
+____________________________________________________________
+
+DEVELOPER_FUNDAMENTAL:
+- Don't read the dictionary.
+- Never learn the language with reading a dictionary.
+- Use language to learn it.
+- Concepts first.
+
+___________________________________________________________
+
+OPERATOR_PRECEDENCE:
+
+- Many operators have different precedence in heirarcy of precedence.
+- In arithmatic Ops BODMAS is followed.
+
+Precedence:
+    1. () - brackets
+    2. ** - exponential
+    3. * & / - Multiplication & Division
+    4. + & - Addition & Subtraction
+
+- bin() - returns binary encoding of int.
+
+VARIABLES:
+- variables are ways to store information
+- variables are case sensitive
+- can't name variables as python keywords.
+- python have dunder variables. Should never create variable with dunder.
+- rapid value assignment:
+    a,b,c = 1,21,3
+
+Statement: An entire line of code that performs any action
+Expression: Piece of code that produces a value.
+
+ASSIGNMENT:
+1. Basic Assignment
+   x = 3
+2. Tuple Assignment
+   x, y = 3, 4
+   (x, y) = 3,4
+3. List Assignment
+   [x, y] = [3, 4]
+4. Sequence Assignment
+   x, y, z = 'HEY'
+5. Extended-Sequence Assignment
+   x, *y = 'HEY'
+   first, *rest = ['A', 'B', 'C', 'D']
+6. Multiple Target Assignment
+   x = y = 75
+7. Augmented Assignment
+   x = 2
+   x += 2
+   - Augmented assignment can be done with every arithmetic operation. (+, -, *, /, **, %, //)
+
+STRINGS:
+- A piece of text
+- Can be written with single-quote & double-quotes, cannot be stretched to multiple lines
+- Long strings can be written with three single-quotes, can stretch on multiple lines
+- collection of character (char)
+
+STRING CONCATENATION:
+- Concatenation - adding or merging strings together
+- String concatenation with '+' sign operator.
+
+string_one = 'String One'
+string_two = 'String Two'
+string_merged = string_one + string_two
+
+TYPE_CONVERSION:
+- str() - converts other data types to string data type
+- int() - converts to integer data type
+- bool() - converts to boolean data type
+- https://www.geeksforgeeks.org/type-conversion-python/
+
+ESCAPE_SEQUENCES:
+- Backslashes can be used to escape next sequence
+
+FORMATTED_STRINGS:
+-
+
+STRING INDEXES:
+- Strings are saved inside a memory as an ordered sequence of memory.
+- [start:stop:stepover]
+- negative indexes starts at the end
+- string[::-1] -> reverses the string
+
+IMMUTABILITY:
+- Strings in python are immutable.
+- Strings doesn't support item assignment
+- In order to edit it, you've to change it and re-assign it.
+
+BUILT_IN_FUNCTIONS:
+- previously used: str(), int(), print()
+- list of built-in funcs: https://docs.python.org/3/library/functions.html
+
+BOOLEANS:
+- two options/literals are: true & false/True & False
+- represents an idea of 1 & 0 in binary.
+- Logical values
+- Booleans help us control the follow of program
+- Truthy and Falsy
+
