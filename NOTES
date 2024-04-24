@@ -1,6 +1,8 @@
-Created by Guido van Rossum
-Python Interpretation & Compilation ?
-REPL,  GLOT io -> for online coding in browser
+# Python
+
+- Created by Guido van Rossum
+- Python Interpretation & Compilation ?
+- REPL,  GLOT io -> for online coding in browser
 
 PROGRAM_01:
 print('Andrie Neagoie') # prints to console
@@ -13,6 +15,7 @@ name = input('What is your name ?') # Capture the input string and will save in 
 print('Hello ' + name) # prints out the name variable value with concatenation
 
 PY2_VS_PY3:
+
 - Py 3 Came in 2008
 - Major Upgrade, means breaking changes
 - Preferred to use Py 3
@@ -24,19 +27,20 @@ PY2_VS_PY3:
 
 Changes from 3.6 to 3.10 ?
 
-
 WHY_SO_MANY_LANGUAGES:
+
 - python is usually slower than languages like C, C++, Java.
 - Python is although slower, but good at developer productivity
 - All Languages have different strengths and weaknesses
 - There's no ultimate programming language
 - Everything as trade offs, has pro and cons. Experience tells you about what pros and cons of every programming language
 
-
 PYTHON_INTERPRETER:
+
 - python_code -> INTERPRETER -> byte_code -> CPYTHON_VM -> machine_code
 
 ENGINES:
+
 - CPython - written in C Language (Official)
 - JPython - written in Java
 - IronPython - written in C# for the Common Language Runtime (CLR/.NET)
@@ -48,7 +52,6 @@ ENGINES:
 - It's just a machine built by developers to comply that specification.
 
 How Python works ?
-
 
 PYTHON_BASICS:
 
@@ -112,8 +115,8 @@ ARITHMATIC_OPS:
 
 6. Exponential
    Raises the first operand to power of second.
-   2 ** 2 = 4
-   10 ** 2 = 100
+   2 **2 = 4
+   10** 2 = 100
 
 7. Floor Division
    Find the floor of the quotient when first operand is divided by the second. returns integer
@@ -124,11 +127,12 @@ MATH_FUNCS:
 
 1. round()
 2. abs()
-3. https://www.programiz.com/python-programming/modules/math
+3. <https://www.programiz.com/python-programming/modules/math>
 
 ____________________________________________________________
 
 DEVELOPER_FUNDAMENTAL:
+
 - Don't read the dictionary.
 - Never learn the language with reading a dictionary.
 - Use language to learn it.
@@ -150,6 +154,7 @@ Precedence:
 - bin() - returns binary encoding of int.
 
 VARIABLES:
+
 - variables are ways to store information
 - variables are case sensitive
 - can't name variables as python keywords.
@@ -161,6 +166,7 @@ Statement: An entire line of code that performs any action
 Expression: Piece of code that produces a value.
 
 ASSIGNMENT:
+
 1. Basic Assignment
    x = 3
 2. Tuple Assignment
@@ -172,7 +178,7 @@ ASSIGNMENT:
    x, y, z = 'HEY'
 5. Extended-Sequence Assignment
    x, *y = 'HEY'
-   first, *rest = ['A', 'B', 'C', 'D']
+   first,*rest = ['A', 'B', 'C', 'D']
 6. Multiple Target Assignment
    x = y = 75
 7. Augmented Assignment
@@ -181,12 +187,14 @@ ASSIGNMENT:
    - Augmented assignment can be done with every arithmetic operation. (+, -, *, /, **, %, //)
 
 STRINGS:
+
 - A piece of text
 - Can be written with single-quote & double-quotes, cannot be stretched to multiple lines
 - Long strings can be written with three single-quotes, can stretch on multiple lines
 - collection of character (char)
 
 STRING CONCATENATION:
+
 - Concatenation - adding or merging strings together
 - String concatenation with '+' sign operator.
 
@@ -195,36 +203,41 @@ string_two = 'String Two'
 string_merged = string_one + string_two
 
 TYPE_CONVERSION:
+
 - str() - converts other data types to string data type
 - int() - converts to integer data type
 - bool() - converts to boolean data type
-- https://www.geeksforgeeks.org/type-conversion-python/
+- <https://www.geeksforgeeks.org/type-conversion-python/>
 
 ESCAPE_SEQUENCES:
+
 - Backslashes can be used to escape next sequence
 
-FORMATTED_STRINGS:
+FORMATTED_STRINGS
 -
 
 STRING INDEXES:
+
 - Strings are saved inside a memory as an ordered sequence of memory.
 - [start:stop:stepover]
 - negative indexes starts at the end
 - string[::-1] -> reverses the string
 
 IMMUTABILITY:
+
 - Strings in python are immutable.
 - Strings doesn't support item assignment
 - In order to edit it, you've to change it and re-assign it.
 
 BUILT_IN_FUNCTIONS:
+
 - previously used: str(), int(), print()
-- list of built-in funcs: https://docs.python.org/3/library/functions.html
+- list of built-in funcs: <https://docs.python.org/3/library/functions.html>
 
 BOOLEANS:
+
 - two options/literals are: true & false/True & False
 - represents an idea of 1 & 0 in binary.
 - Logical values
 - Booleans help us control the follow of program
 - Truthy and Falsy
-

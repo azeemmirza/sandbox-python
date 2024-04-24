@@ -10,7 +10,7 @@
 """
 
 
-def reverse_array_extra_array(arr):
+def reverse_array(arr):
     reversed_arr = []
 
     # Write your code here
@@ -19,7 +19,7 @@ def reverse_array_extra_array(arr):
 
 # Example usage:
 original_arr = [1, 2, 3, 4, 5]
-reversed_arr = reverse_array_extra_array(original_arr)
+reversed_arr = reverse_array(original_arr)
 
 print(reversed_arr)
 
