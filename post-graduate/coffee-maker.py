@@ -1,12 +1,6 @@
 '''
-TITLE: Coffee Maker
-
-AUTHOR: Azeem Mirza <https://azeemmirza.co>
-
-LINK: https://classroom.google.com/u/1/c/NjcxOTU0MDE5MjI4/a/NjgyMjg2MzkxNDU1/details
-
-DESCRIPTION: Create a Coffee class and a CoffeeMaker class. The Coffee class should have the following attributes:
-
+TITLE: Coffee MakerAUTHOR: Azeem Mirza <https://azeemmirza.co>
+QUESTION_LINK: https://classroom.google.com/u/1/c/NjcxOTU0MDE5MjI4/a/NjgyMjg2MzkxNDU1/details
 DATE: 2024-06-02
 '''
 
