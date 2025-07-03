@@ -25,6 +25,7 @@ def bubble_sort():
     pass
 
 
+# merge sort
 def merge_sort(arr):
     arr_len = len(arr)
     arr_mid_index = arr_len // 2
